@@ -1,0 +1,23 @@
+.Download {
+  display: flex;
+}
+
+.button,
+.buttonDisabled {
+  display: flex;
+  align-items: center;
+  font-family: "Microsoft Yahei";
+  font-weight: bold;
+  font-size: 13px;
+  gap: 5px;
+}
+
+.button {
+  color: #111111;
+  cursor: pointer;
+}
+
+.buttonDisabled {
+  cursor: no-drop;
+  color: #aaa
+}

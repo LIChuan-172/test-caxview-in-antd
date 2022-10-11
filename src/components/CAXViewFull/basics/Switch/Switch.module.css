@@ -1,0 +1,3 @@
+.Switch:global(.ant-switch):global(.ant-switch-checked) {
+    background: #fec242;
+  }

@@ -1,0 +1,68 @@
+.LayoutStartEnd {
+  background-color: #2c3844;
+  align-items: center;
+}
+
+.Functions {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.LayoutStartEnd.Horizontal {
+  height: 50px;
+  flex-direction: row;
+}
+
+.LayoutStartEnd.Vertical {
+  width: 50px;
+  flex-direction: column;
+}
+
+.Layout.Vertical {
+  height: 100%;
+}
+
+.Functions.Horizontal {
+  padding-left: 32px;
+  flex-direction: row;
+}
+
+.Functions.Vertical {
+  padding-top: 32px;
+  flex-direction: column;
+}
+
+.Files {
+  display: flex;
+}
+
+.Button.Horizontal {
+  height: 50px;
+}
+
+.Button.Vertical {
+  width: 50px;
+}
+
+.Button.Open,
+.Button.Open * {
+  border-radius: 0;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-family: "Microsoft YaHei";
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.Button.Save,
+.Button.Save * {
+  border-radius: 0;
+  background: linear-gradient(90deg, #ffa914, #fed360);
+  color: #111;
+  border: none;
+  font-family: "Microsoft YaHei";
+  font-size: 15px;
+  font-weight: bold;
+}

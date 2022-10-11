@@ -1,0 +1,20 @@
+.layout {
+  flex-direction: row;
+  align-items: stretch;
+}
+
+/* .layout>header {
+  resize: horizontal;
+  overflow: auto;
+} */
+
+.caxViewTree {
+  width: 200px;
+  height: 100%;
+  resize: horizontal;
+  overflow: auto;
+}
+
+.caxViewSimple {
+  height: 100%;
+}

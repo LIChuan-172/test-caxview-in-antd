@@ -1,0 +1,31 @@
+.Tree :global(.ant-tree-treenode) {
+  height: 30px;
+  padding-bottom: 0;
+}
+
+.Tree :global(.ant-tree-treenode:nth-child(odd)) {
+  background-color: #f3f3f3;
+}
+
+.Tree :global(.ant-tree-list-holder-inner) {
+  align-items: stretch;
+}
+
+.Tree :global(.ant-tree-switcher-leaf-line::before),
+.Tree :global(.ant-tree-indent-unit::before) {
+  border-right-style: dashed;
+}
+
+.Tree :global(.ant-tree-switcher-leaf-line::after) {
+  border-bottom-style: dashed;
+}
+
+.Tree :global(.ant-tree-switcher) {
+  line-height: 30px;
+  background: none;
+}
+
+.Tree :global(.ant-tree-node-content-wrapper),
+.Tree :global(.ant-tree-node-content-wrapper) div {
+  height: 100%;
+}

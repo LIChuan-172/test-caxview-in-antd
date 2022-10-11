@@ -1,0 +1,13 @@
+.Slider:global(.ant-slider) :global(.ant-slider-track) {
+  background-color: #fec242;
+}
+
+.Slider:global(.ant-slider) :global(.ant-slider-handle),
+.Slider:global(.ant-slider:hover) :global(.ant-slider-handle) {
+  border-color: #fec242;
+}
+
+.Slider:global(.ant-slider) :global(.ant-slider-handle:focus) {
+    outline: none;
+    box-shadow: 0 0 0 5px rgb(255 164 24 / 12%);
+}

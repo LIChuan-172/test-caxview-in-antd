@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  justify-content: stretch;
+}
+
+/* .header,
+.main {
+  border: 2px solid black;
+  margin: 5px;
+} */
+
+.header {
+  flex-grow: 0;
+  /* border-color: blue; */
+}
+
+.main {
+  flex-grow: 1;
+  /* border-color: red; */
+  overflow: hidden;
+}

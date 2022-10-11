@@ -1,0 +1,9 @@
+.TreeItem {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.TreeItem span {
+  font-family: 'Microsoft YaHei';
+}

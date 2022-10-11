@@ -1,0 +1,8 @@
+.LayoutHalved {
+  display: flex;
+}
+
+.part1,
+.part2 {
+  flex: 1 1 auto;
+}

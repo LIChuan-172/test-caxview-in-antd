@@ -1,0 +1,9 @@
+.CAXViewTreeHeader {
+  color: #333;
+  height: 25px;
+  border-top: 3px solid #FFC52A;
+  padding-left: 10px;
+  font-family: "Microsoft YaHei";
+  font-size: 12px;
+  font-weight: bold;
+}

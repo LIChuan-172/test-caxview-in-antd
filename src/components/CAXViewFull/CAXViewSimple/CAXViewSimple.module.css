@@ -1,0 +1,19 @@
+.caxViewBasic {
+  height: 100%;
+}
+
+.Top {
+  flex-direction: column;
+}
+
+.Right {
+  flex-direction: row-reverse;
+}
+
+.Bottom {
+  flex-direction: column-reverse;
+}
+
+.Left {
+  flex-direction: row;
+}
