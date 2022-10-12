@@ -15,7 +15,7 @@ const OccViewer: FC<Props> = ({ className, onInitialize }) => {
     ;(async () => {
       if (!occViewerRef.current) {
         occViewerRef.current = await createOCCViewerModule(canvasRef.current!)
-        occViewerRef.current.tryResize?.()
+        // occViewerRef.current.tryResize?.()
       }
       onInitialize(occViewerRef.current)
     })()

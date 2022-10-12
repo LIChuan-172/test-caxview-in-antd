@@ -199,18 +199,20 @@ const CAXViewBasic: FC<Props> = ({
     if (occViewer && model !== undefined) {
       occViewer.removeAllObjects?.()
       occViewer.loadModel?.(model, type)
+      
+      // occViewer.tryResize?.()
 
-      const docId = occViewer.getCurrentDocId?.()
-      const treeStr = occViewer.getTreeStr?.(docId ?? 0)
-      onLoad?.({
-        modelId: docId,
-        allNodes: treeStr
-          ? convertTreesToAllNodes(JSON.parse(treeStr).roots.map(extractTree))
-          : undefined,
-        borderBox: docId
-          ? occViewer.getBox?.()
-          : ([0.0, 0.0, 0.0, 0.0, 0.0, 0.0] as Box)
-      })
+      // const docId = occViewer.getCurrentDocId?.()
+      // const treeStr = occViewer.getTreeStr?.(docId ?? 0)
+      // onLoad?.({
+      //   modelId: docId,
+      //   allNodes: treeStr
+      //     ? convertTreesToAllNodes(JSON.parse(treeStr).roots.map(extractTree))
+      //     : undefined,
+      //   borderBox: docId
+      //     ? occViewer.getBox?.()
+      //     : ([0.0, 0.0, 0.0, 0.0, 0.0, 0.0] as Box)
+      // })
     }
   }, [model, occViewer, onLoad, type])
 
